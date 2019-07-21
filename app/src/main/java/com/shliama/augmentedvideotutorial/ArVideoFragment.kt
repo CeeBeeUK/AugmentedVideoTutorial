@@ -62,6 +62,7 @@ open class ArVideoFragment : ArFragment() {
                     db.addImage(TEST_VIDEO_1, loadAugmentedImageBitmap(TEST_IMAGE_1))
                     db.addImage(TEST_VIDEO_2, loadAugmentedImageBitmap(TEST_IMAGE_2))
                     db.addImage(TEST_VIDEO_3, loadAugmentedImageBitmap(TEST_IMAGE_3))
+                    db.addImage(TEST_VIDEO_4, loadAugmentedImageBitmap(TEST_IMAGE_4))
                 }
                 return true
             } catch (e: IllegalArgumentException) {
@@ -216,10 +217,12 @@ open class ArVideoFragment : ArFragment() {
         private const val TEST_IMAGE_1 = "test_image_1.jpg"
         private const val TEST_IMAGE_2 = "test_image_2.jpg"
         private const val TEST_IMAGE_3 = "test_image_3.jpg"
+        private const val TEST_IMAGE_4 = "test_image_4.jpg"
 
         private const val TEST_VIDEO_1 = "test_video_1.mp4"
         private const val TEST_VIDEO_2 = "test_video_2.mp4"
         private const val TEST_VIDEO_3 = "test_video_3.mp4"
+        private const val TEST_VIDEO_4 = "test_video_4.mp4"
 
         private const val VIDEO_CROP_ENABLED = true
 
